@@ -50,8 +50,30 @@ header.hero {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: #fff;
+  color: #000000;
   padding-bottom: 80px;
+}
+
+/* Additional styles for smaller screens (mobile) */
+@media (max-width: 720px) {
+  header.hero {
+    background-size: contain; /* Adjust this to fit your design preferences */
+    background-position: center top; /* Center the background image at the top */
+    padding-bottom: 40px; /* Adjust padding for smaller screens */
+  }
+
+  header.hero .hero-text {
+    margin-top: 10%; /* Adjust margin for smaller screens */
+    margin-bottom: 10%; /* Adjust margin for smaller screens */
+  }
+
+  header.hero h1 {
+    font-size: 3em; /* Adjust font size for smaller screens */
+  }
+
+  a.menu {
+    top: 1em; /* Adjust menu position for smaller screens */
+  }
 }
 
 header.hero .hero-text {
@@ -280,7 +302,7 @@ h1.heading.pink:after {
 
 /* Contact Banner */
 .contact-banner {
-  background: url(../assets/bg-pat.png) #6d63a7 repeat;
+  background: url(../assets/bg-pat.png) #dbbd0f repeat;
   color: #fff;
   padding: 6em;
 }
@@ -295,7 +317,7 @@ h1.heading.pink:after {
 
 /* Footer */
 .footer {
-  background-color: #37324b;
+  background-color: #75ac6d;
   padding: 5em;
 }
 .footer h1 {
@@ -366,7 +388,7 @@ nav {
   display: block;
   height: 4px;
   width: 40px;
-  background-color: #fff;
+  background-color: #000000;
   transition: .25s ease-in-out;
 }
 #menu-toggle .hamburger span.line {
@@ -435,7 +457,7 @@ ul.main-nav li {
   display: inline-block;
 }
 ul.main-nav li a {
-  color: #fff;
+  color: #000000;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   text-transform: uppercase;

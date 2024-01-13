@@ -108,12 +108,12 @@ fieldset[disabled] .btn-default.active {
   background-image: none;
   background-repeat: repeat-x;
   border-color: transparent;
-  background-color: #f386b4;
+  background-color: #dbbd0f;
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #850791;
-  border-color: #850791;
+  background-color: #50ac3e;
+  border-color: #77df3b;
 }
 .btn-primary:active,
 .btn-primary.active {
