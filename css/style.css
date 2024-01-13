@@ -54,27 +54,7 @@ header.hero {
   padding-bottom: 80px;
 }
 
-/* Additional styles for smaller screens (mobile) */
-@media (max-width: 720px) {
-  header.hero {
-    background-size: contain; /* Adjust this to fit your design preferences */
-    background-position: center top; /* Center the background image at the top */
-    padding-bottom: 40px; /* Adjust padding for smaller screens */
-  }
 
-  header.hero .hero-text {
-    margin-top: 10%; /* Adjust margin for smaller screens */
-    margin-bottom: 10%; /* Adjust margin for smaller screens */
-  }
-
-  header.hero h1 {
-    font-size: 3em; /* Adjust font size for smaller screens */
-  }
-
-  a.menu {
-    top: 1em; /* Adjust menu position for smaller screens */
-  }
-}
 
 header.hero .hero-text {
   margin-top: 20%;
